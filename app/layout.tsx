@@ -11,6 +11,15 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "DelegateMentalLoad.com — Make Invisible Labor Visible",
   description: "A relationship tool that helps couples visualize and divide the mental load and invisible labor of running a shared life.",
+  openGraph: {
+    title: "DelegateMentalLoad.com — Make Invisible Labor Visible",
+    description: "A relationship tool that helps couples visualize and divide the mental load and invisible labor of running a shared life.",
+    images: [{ url: "/Gemini_Generated_Image_cguww2cguww2cguw.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/Gemini_Generated_Image_cguww2cguww2cguw.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
