@@ -25,8 +25,8 @@ export default function SummaryPanel({ summary, totalTasks, onReset, onExport }:
           <div className="font-serif text-xl sm:text-2xl" style={{ color: '#5AABAB' }}>{summary.partner1Percent}%</div>
           <div className="text-xs text-stone-400 mt-0.5" style={{ fontFamily: 'Sweet Sans Pro, system-ui' }}>{PARTNER_LABELS.partner1}</div>
         </div>
-        <div className="p-4 border border-stone-100" style={{ background: '#F2F7F7' }}>
-          <div className="font-serif text-xl sm:text-2xl" style={{ color: '#6FA3A8' }}>{summary.partner2Percent}%</div>
+        <div className="p-4 border border-stone-100" style={{ background: '#FDF1EF' }}>
+          <div className="font-serif text-xl sm:text-2xl" style={{ color: '#E8907A' }}>{summary.partner2Percent}%</div>
           <div className="text-xs text-stone-400 mt-0.5" style={{ fontFamily: 'Sweet Sans Pro, system-ui' }}>{PARTNER_LABELS.partner2}</div>
         </div>
         <div className="p-4 border border-stone-100 bg-[#F8F4EF]">

@@ -12,7 +12,7 @@ interface Props {
 
 const BADGE: Record<OwnerKey, string> = {
   partner1: 'bg-[#5AABAB]/10 text-[#5AABAB]',
-  partner2: 'bg-[#6FA3A8]/10 text-[#6FA3A8]',
+  partner2: 'bg-[#E8907A]/10 text-[#E8907A]',
   both:     'bg-[#E8C84A]/20 text-stone-600',
   neither:  'bg-stone-100 text-stone-400',
 };

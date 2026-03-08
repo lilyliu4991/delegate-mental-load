@@ -15,7 +15,7 @@ export default function LoadChart({ summary }: Props) {
       ]
     : [{ name: 'Unassigned', value: 1 }];
 
-  const colors = hasData ? ['#5AABAB', '#3D8F91'] : ['#C8E6E6'];
+  const colors = hasData ? ['#5AABAB', '#E8907A'] : ['#C8E6E6'];
 
   return (
     <div className="flex flex-col items-center gap-5">
@@ -47,9 +47,9 @@ export default function LoadChart({ summary }: Props) {
           {hasData && <span className="text-[#5AABAB] font-medium text-xs">{summary.partner1Percent}%</span>}
         </div>
         <div className="flex items-center gap-2">
-          <span className="w-2.5 h-2.5" style={{ background: '#3D8F91' }} />
+          <span className="w-2.5 h-2.5" style={{ background: '#E8907A' }} />
           <span className="text-stone-600 text-xs" style={{ fontFamily: 'Sweet Sans Pro, system-ui' }}>{PARTNER_LABELS.partner2}</span>
-          {hasData && <span className="text-[#3D8F91] font-medium text-xs">{summary.partner2Percent}%</span>}
+          {hasData && <span className="text-[#E8907A] font-medium text-xs">{summary.partner2Percent}%</span>}
         </div>
       </div>
     </div>
