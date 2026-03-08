@@ -32,7 +32,7 @@ export default function TaskCategory({ category, tasks, onUpdate }: Props) {
     <div className="border border-stone-200 overflow-hidden bg-white">
       <button
         onClick={() => setOpen((p) => !p)}
-        className="w-full flex items-center justify-between px-6 py-5 hover:bg-[#F8F4EF] transition-colors text-left"
+        className="w-full flex items-center justify-between px-4 sm:px-6 py-5 hover:bg-[#F8F4EF] transition-colors text-left"
       >
         <div className="flex items-center gap-4">
           <span className="text-2xl">{category.emoji}</span>
@@ -52,7 +52,7 @@ export default function TaskCategory({ category, tasks, onUpdate }: Props) {
       {open && (
         <div className="border-t border-stone-100 divide-y divide-stone-100">
           {tasks.map((task) => (
-            <div key={task.id} className="px-6 py-5 bg-white hover:bg-[#F8F4EF]/50 transition-colors">
+            <div key={task.id} className="px-4 sm:px-6 py-5 bg-white hover:bg-[#F8F4EF]/50 transition-colors">
               <div className="flex items-start justify-between gap-4 mb-3">
                 <div>
                   <p className="text-sm font-medium text-stone-800" style={{ fontFamily: 'Sweet Sans Pro, system-ui' }}>{task.title}</p>
